@@ -1,0 +1,61 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #6a1b9a; /* Purple background color */
+  }
+  
+  form {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* White background color */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Adjust the maximum width as needed */
+    width: 100%;
+  }
+  
+  form h2 {
+    margin-bottom: 20px;
+    color: #6a1b9a; /* Purple text color */
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #333; /* Dark gray text color */
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent; /* Make text boxes invisible */
+    color: transparent;
+  }
+  
+  .button-container {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .button {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue background color on hover */
+  }
+  

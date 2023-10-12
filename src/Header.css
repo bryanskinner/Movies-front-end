@@ -1,0 +1,34 @@
+header {
+    background-color: #a99df2; 
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    font-family: Arial, sans-serif; 
+  }
+  
+  .nav-links a:hover {
+    color: #87ceeb; 
+  }
+  
