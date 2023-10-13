@@ -45,7 +45,8 @@ const Dashboard = () => {
 
   useEffect(() => {
     if (searchParam) {
-      const apiKey = "95abec4cfb4e6e4b50c9c280a38a3e96";
+      const apiKey = import.meta.env.VITE_API_KEY;
+      // const apiKey = "95abec4cfb4e6e4b50c9c280a38a3e96";
       const url = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${searchParam}`;
       fetch(url)
         .then((res) => res.json())
